@@ -1,4 +1,6 @@
-Sudoku puzzle solver  
+Sudoku puzzle solver
+====================
+
 It should input a CSV file consisting of an unsolved Sudoku with 0’s representing blanks, and output a CSV file with the solved Sudoku. 
 
 For instance, the input CSV file can look like the following:
