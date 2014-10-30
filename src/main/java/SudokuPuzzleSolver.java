@@ -52,8 +52,7 @@ public class SudokuPuzzleSolver {
     public static void main(String[] args) {
 
         // Parse input CSV file
-        //parseCSV(args[0]);
-        parseCSV("/Users/gaurav/Downloads/sudoku.csv");
+        parseCSV(args[0]);
 
         // Solve Sudoku Puzzle
         if (solve(0, 0, inputPuzzle)) {
