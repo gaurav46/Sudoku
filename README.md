@@ -4,7 +4,7 @@ Sudoku puzzle solver
 It should input a CSV file consisting of an unsolved Sudoku with 0’s representing blanks, and output a CSV file with the solved Sudoku. 
 
 For instance, the input CSV file can look like the following:
-
+<pre>
 0,3,5,2,9,0,8,6,4
 0,8,2,4,1,0,7,0,3
 7,6,4,3,8,0,0,9,0
@@ -14,9 +14,9 @@ For instance, the input CSV file can look like the following:
 4,0,6,5,7,1,0,0,9
 3,5,9,0,2,8,4,1,7
 8,0,0,9,0,0,5,2,6
-
+</pre>
 The output should be:
-
+<pre>
 1,3,5,2,9,7,8,6,4
 9,8,2,4,1,6,7,5,3
 7,6,4,3,8,5,1,9,2
@@ -26,4 +26,4 @@ The output should be:
 4,2,6,5,7,1,3,8,9
 3,5,9,6,2,8,4,1,7
 8,7,1,9,4,3,5,2,6
-
+</pre>
